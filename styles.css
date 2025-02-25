@@ -56,7 +56,7 @@ header nav {
 
 @media screen and (max-width: 430px) {
     .nav-contact a{
-        font-size: 0.9rem;
+        font-size: 0.97rem;
     }
 }
 
@@ -93,7 +93,7 @@ header nav {
 }
 
 .cta-button:hover {
-    background-color: #e07a00;
+    background-color: #ecbc82;
 }
 
 /* Image d'accueil */
@@ -135,7 +135,7 @@ footer {
 }
 
 footer a {
-    color: #FF8C00;
+    color: #ecbc82;
     text-decoration: none;
 }
 
