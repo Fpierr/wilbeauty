@@ -39,6 +39,15 @@ header nav {
     text-decoration: underline;
 }
 
+/* Responsiveness pour téléphones */
+@media screen and (max-width: 768px) {
+    .nav-contact {
+        position: static;
+        transform: none;
+        margin-left: auto;
+    }
+}
+
 /* Section principale */
 .main-section {
     text-align: center;
