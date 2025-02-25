@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barre de navigation */
+header nav {
+    background-color: #333;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-logo img {
+    height: 40px; /* Taille du logo */
+}
+
+.nav-contact {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-contact a {
+    color: #FF8C00;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Section principale */
+.main-section {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background-color: #fff;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 {
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #FF8C00;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 30px
+}
+
+.cta-button:hover {
+    background-color: #e07a00;
+}
+
+/* Image d'accueil */
+.hero {
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Section description produit */
+.product-description {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.product-description h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-description p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+footer a {
+    color: #FF8C00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
