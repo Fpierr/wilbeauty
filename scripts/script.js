@@ -46,6 +46,6 @@ function startWhatsApp() {
 function startCall() {
     const confirmMessage = "Appelez pour passer votre commande en toute sécurité.";
     if (confirm(confirmMessage)) {
-        window.open("tel:+...Pas encore disponible, retourner a l'acueil pour pour envoyer un email via 'contactez-nous'", "_self");
+        window.open("tel:+...", "_self");
     }
 }
