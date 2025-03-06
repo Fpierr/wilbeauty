@@ -39,13 +39,13 @@ function getRandomColor() {
 function startWhatsApp() {
     const confirmMessage = "Ouvrez WhatsApp pour passer votre commande en toute sécurité.";
     if (confirm(confirmMessage)) {
-        window.open("https://wa.me/...?text=Bonjour,%0AVia%20le%20site%20WilBeauty,%20je%20souhaite%20passer%20une%20commande.", "_blank");
+        window.open("https://wa.me/18099929258?text=Bonjour,%0AVia%20le%20site%20WilBeauty,%20je%20souhaite%20passer%20une%20commande.", "_blank");
     }
 }
 
 function startCall() {
     const confirmMessage = "Appelez pour passer votre commande en toute sécurité.";
     if (confirm(confirmMessage)) {
-        window.open("tel:+...", "_self");
+        window.open("tel:+18099929258", "_self");
     }
 }
